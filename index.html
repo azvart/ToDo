@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    <title>My best ToDo</title>
+</head>
+<body>
+ 
+    <div class="container-fluid text-center my-3">
+        <div class="row anim">
+            <div class='col-lg-4'><button class="btn Added btn-light">Added</button></div>
+            <div class='col-lg-4'><button class="btn Completed btn-light">Completed</button></div>
+            <div class='col-lg-4'><button class="btn Deleted btn-light">Deleted</button></div>
+        </div>
+    </div>
+    <div class="container-fluid text-center my-3">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <div class='row'>
+                <div class='col-lg-6 my-3'>
+                    <button type="button" class="close plus" >
+                        +
+                      </button>
+                    </div>
+                </div>
+              
+                <ul class="nav Added  flex-column">
+
+                </ul>
+                <ul class ='nav Completed d-none flex-column'>
+
+                </ul>
+                <ul class="nav Deleted d-none flex-column">
+
+                </ul>
+                <button class='Deleted btn btn-dark delete-all my-2 d-none show'>Delete All</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src='./node_modules/gsap/dist/Draggable.js'></script>
+    <script src='./node_modules/gsap/dist/CSSRulePlugin.js'></script>
+    <script src='./node_modules/gsap/dist/TextPlugin.js'></script>
+    <script src='./node_modules/gsap/dist/ScrollToPlugin.js'></script>
+    <script src='./node_modules/gsap/dist/PixiPlugin.js'></script>
+    <script src='./node_modules/gsap/dist/MotionPathPlugin.js'></script>
+    <script src='./node_modules//gsap//dist/gsap.js'></script>
+    
+    
+    
+   
+
+   <script src='./js/Added.js'></script>
+   <script src='./js/animation.js'></script>
+   
+   
+</body>
+</html>
